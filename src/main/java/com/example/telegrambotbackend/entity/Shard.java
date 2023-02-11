@@ -20,15 +20,15 @@ public class Shard {
     @Column(name = "user_id")
     private String user_id;
 
-    @Column(name = "user_id")
+    @Column(name = "date_time")
     private String date_time;
 
-    @Column(name = "user_id")
+    @Column(name = "shard")
     private String shard;
 
-    @Column(name = "user_id")
+    @Column(name = "first_location")
     private String first_location;
 
-    @Column(name = "user_id")
+    @Column(name = "second_location")
     private String second_location;
 }
